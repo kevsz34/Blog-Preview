@@ -18,7 +18,7 @@ article{
     display: flex;
     flex-direction: column;
     color: #111111;
-    border: 1px solid #111111;;
+    border: 1px solid #111111;
     box-shadow: 8px 8px 0 0 #111111;
     max-width: 370px;
     gap: 20px;
@@ -28,7 +28,8 @@ article{
 }
 
 .imgSect img{
-    width: 100%;
+    width: 20rem;
+   height: 12rem;
 }
 .textSect{
     display: flex;
@@ -54,9 +55,14 @@ span{
 .mainText h1{
     font-weight: 800;
     font-size: 1.5rem;
+    padding-bottom: 0.4rem;
+}
+.mainText h1:hover{
+    color: #F4D04E;
 }
 .mainText p{
-    width: 350px;
+    line-height: 1.5rem;
+    width: 20rem;
     color: #6B6B6B;
 }
 .creatorSect{
@@ -75,8 +81,8 @@ span{
         max-width: 330px;
     }
 .imgSect img{
-    max-width: 279px;
-   height: 200px;
+    max-width: 279rem;
+   height: 13rem;
 }
     span{
     font-size: 12px;
